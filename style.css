@@ -861,3 +861,16 @@ a {
   }
 }
 
+/* Tamaño del logo en la cabecera */
+.logo {
+  height: 56px;
+  width: auto;
+}
+
+/* Reducir solo en móvil */
+@media (max-width: 576px) {
+  .logo {
+    height: 52px;
+  }
+}
+
